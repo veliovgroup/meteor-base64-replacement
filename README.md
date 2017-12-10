@@ -20,3 +20,4 @@ ln -s /full/path/to/downloaded/repository
  2. Place it into `meteor-app/packages` directory
 
 Check this package for updates, especially after Meteor releases a new version.
+For more info see docs at [`ostrio:base64` package](https://github.com/VeliovGroup/meteor-base64#default-base64-package-replacement).
