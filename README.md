@@ -11,13 +11,14 @@ __Note:__ This package isn't published to Atmosphere, as it has to have the same
  2. Symlink it into `meteor-app/packages` directory:
 ```shell
 # from meteor-app/packages
-ln -s /full/path/to/downloaded/repository
+ln -s /full/path/to/downloaded/repository base64
 ```
 
 #### Option 2
 
  1. Download this repository
  2. Place it into `meteor-app/packages` directory
+ 3. Rename copied directory to `base64`, this is important, otherwise it will be treated differently
 
 Check this package for updates, especially after Meteor releases a new version.
 For more info see docs at [`ostrio:base64` package](https://github.com/VeliovGroup/meteor-base64#default-base64-package-replacement).
