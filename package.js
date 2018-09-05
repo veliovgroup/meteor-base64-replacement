@@ -1,9 +1,13 @@
 Package.describe({
+  name: 'base64',
   summary: '[Enhanced Performance] Base64 encoding and decoding',
-  version: '1.0.13'
+  version: '1.0.14',
+  git: '',
+  documentation: 'README.md'
 });
 
 Package.onUse(function (api) {
+  api.versionsFrom('1.5');
   api.use(['modules', 'ostrio:base64@2.0.1'], ['client', 'server']);
   api.export('Base64');
   api.mainModule('base64.js', ['client', 'server']);
